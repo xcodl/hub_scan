@@ -4,8 +4,8 @@ on:
   push:
     branches:
     - release/*
-  schedule:
-  - cron: "0 */4 * * *"       
+  #schedule:
+  #- cron: "0 */4 * * *"       
   workflow_dispatch:
 jobs:
   build:
